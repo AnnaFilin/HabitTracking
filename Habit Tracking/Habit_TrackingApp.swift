@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct Habit_TrackingApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            AppBackgroundView {
+                ContentView()
+            }
+               
+            
         }
     }
 }
